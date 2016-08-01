@@ -1,0 +1,22 @@
+{
+  "name": "project-name",
+  "author": "developer",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --watch --progress --color",
+    "dev": "webpack-dev-server --progress"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-webpack": "^6.4.2",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.9.0",
+    "jshint": "^2.9.2",
+    "jshint-loader": "^0.8.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  }
+}
