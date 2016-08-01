@@ -1,11 +1,11 @@
 // Example to use component 
 export class MyClass {
     constructor(credentials) {
-        this.name = credentials.name;
-        this.enrollmentNo = credentials.enrollmentNo
+        this.firstName = credentials.firstName;
+        this.lastName = credentials.lastName
     }
     getName() {
-        return this.name;
+        return this.firstName + this.lastName;
     }
 }
 
