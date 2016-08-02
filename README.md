@@ -27,6 +27,7 @@ npm run dev
 3. JSHint -  To detect errors and potential problems in your JavaScript code 
 4. mutualofomaha-ui-toolkit - Use the standards from design guide
 5. JQuery - Requried for mutualofomaha-ui-toolkit
+6. SourceMap - To see / debug the code in ES6
 
 ### Folder Structure
 
