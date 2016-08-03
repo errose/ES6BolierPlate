@@ -7,5 +7,8 @@ export class MyClass {
     getName() {
         return this.firstName + this.lastName;
     }
+    getFoo() {
+    	console.log('foo');
+    }
 }
 

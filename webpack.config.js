@@ -1,5 +1,6 @@
 var path = require('path')
 	webpack = require('webpack');
+	HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	devtool: 'sourcemap',
@@ -23,6 +24,9 @@ module.exports = {
 	plugins: [
 		// new webpack.optimize.UglifyJsPlugin({
 
-		// })
+		// }),
+		new HtmlWebpackPlugin({
+			template: './index.html'			
+		})
 	]
 };
