@@ -32,3 +32,5 @@ npm run dev
 ### Folder Structure
 
 The boilerplate folder structure is inspired from the Angular2 CLI folder structure which tries to layout the files in a modular way where each folder is like a component(different parts of the webpage/webapp) which does one thing only. So rather than creating one folder for Javascript and one folder for CSS and adding every files inside them, we create a multiple folders for different components and include all the neccesarry files that are required for that component inside the folder itself. This makes it easy find the things that are related to a component and ecapsulate it's assets.
+
+![Alt text](src/shared/folder.png)
